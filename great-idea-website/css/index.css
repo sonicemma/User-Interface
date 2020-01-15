@@ -68,14 +68,25 @@ h1, h2, h3, h4, h5 {
 nav a{
 	color: #b3b3b3;
 	display: inline-block;
+	margin: 2%;
+	text-decoration: none;
+}
+
+.logo {
+	margin: auto;
+	display: inline-block;
 }
 
 h1 {
 	font-size: 330%;
+	display: inline-block;
 }
 
-div {
-	display: inline-block;
+div{
+    display: inline-block;
+    margin: 7%;
+	width: 12%;
+	padding: 2%;
 }
 
 #headerimg {
@@ -87,7 +98,7 @@ div {
 	box-sizing: box-sizing;
 	border: solid;
 	border-width: thin;
-	width: 8%;
+	width: 6%;
 	padding: 0% 0% 0% 1%;
 	margin: auto;
 	padding: .4% 0% .4% 1%;
