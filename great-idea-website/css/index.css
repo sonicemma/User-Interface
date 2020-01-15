@@ -79,8 +79,16 @@ nav a{
 header {
 	margin: auto;
 	width: 100%;
-	padding: 0% 30% 0% 10%;
+	padding: 0% 0% 0% 10%;
 	border: solid red;
+}
+
+#top-div {
+	border: solid red;
+	display: inline-block;
+	box-sizing: border-box;
+	text-align: center;
+	margin: auto;
 }
 
 .logo {
@@ -120,13 +128,12 @@ h2 {
 }
 
 button {
-	display: inline-block;
+	display: inline;
 	box-sizing: box-sizing;
 	border: solid;
 	border-width: thin;
-	width: 20%;
-	margin: auto;
-	padding: 1% 1% 1% 1%;
+	width: 10%;
+	padding: 1%;
 	background: white;
 }
 
