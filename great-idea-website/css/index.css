@@ -67,6 +67,7 @@ h1, h2, h3, h4, h5 {
 
 body {
 	padding: 2%;
+	margin-left: 5%;
 }
 
 nav a{
@@ -74,17 +75,17 @@ nav a{
 	display: inline-block;
 	margin: 2%;
 	text-decoration: none;
+	padding-bottom: 4%;
 }
 
 header {
 	margin: auto;
 	width: 100%;
 	padding: 0% 0% 0% 10%;
-	border: solid red;
+	display: inline-block;
 }
 
 #top-div {
-	border: solid red;
 	display: inline-block;
 	box-sizing: border-box;
 	text-align: center;
@@ -100,6 +101,7 @@ h1 {
 	font-size: 330%;
 	display: inline-block;
 	width: 80%;
+	font-size: 600%;
 }
 
 
@@ -108,24 +110,29 @@ h2 {
 }
 
 .container {
-	width: 100%;
+	width: 90%;
 	margin: auto;
 }
 
-.container div {
+.container .top {
+	margin-right: 5%;
+}
+
+.container div{
 	display: inline-block;
 	box-sizing: border-box;
 	width: 12%;
 	height: 3%;
 	width: 25%;
 	margin: auto;
-	border: solid red; 
 }
 
-#headerimg {
+header #headerimg {
+	padding: 1%;
 	display: inline-block;
-	margin-left: 30%;
+	position: relative;
 }
+
 
 button {
 	display: inline;
@@ -135,14 +142,23 @@ button {
 	width: 10%;
 	padding: 1%;
 	background: white;
+	margin: 0% 0% 0% 6%;
 }
 
 .middle-img {
-	margin: 0% 20% 20% 50%;
+	padding: 10%;
+}
+
+footer {
+	padding-top: 5%;
 }
 
 
 h6 {
 	text-align: center;
-	margin-bottom: 5%;
+	margin-bottom: 10%;
+}
+
+.top {
+	margin: 99%;
 }
