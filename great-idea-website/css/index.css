@@ -65,3 +65,17 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+h1 {
+	font-size: 330%;
+}
+
+#getStarted {
+	display: inline-block;
+	box-sizing: box-sizing;
+	border: solid;
+	border-width: thin;
+	width: 8%;
+	padding: 0% 0% 0% 1%;
+	margin: auto;
+	padding: .4% 0% .4% 1%;
+}
