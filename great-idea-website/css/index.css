@@ -80,13 +80,27 @@ nav a{
 h1 {
 	font-size: 330%;
 	display: inline-block;
+	width: 50%;
+	margin: auto;
+	
+}
+
+h2 {
+	font-size: 130%;
 }
 
 div{
     display: inline-block;
-    margin: 7%;
+    margin: auto;
 	width: 12%;
 	padding: 2%;
+	height: 10%;
+	width: 25%;
+	margin: 0% 0% 0% 5%;
+}
+
+p {
+	font-size: 130%;
 }
 
 #headerimg {
@@ -102,4 +116,8 @@ div{
 	padding: 0% 0% 0% 1%;
 	margin: auto;
 	padding: .4% 0% .4% 1%;
+}
+
+.middle-img {
+	margin: 0% 20% 20% 50%;
 }
