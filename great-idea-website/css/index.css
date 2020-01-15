@@ -84,7 +84,11 @@ header {
 	padding: 0% 0% 0% 10%;
 	display: inline-block;
 }
-
+.border {
+	border: .5px solid black;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
 #top-div {
 	display: inline-block;
 	box-sizing: border-box;
@@ -131,6 +135,7 @@ header #headerimg {
 	padding: 1%;
 	display: inline-block;
 	position: relative;
+	margin-left: 7%;
 }
 
 
@@ -149,11 +154,6 @@ button {
 	padding: 10%;
 	margin: 0;
 }
-
-footer {
-	padding-top: 5%;
-}
-
 
 h6 {
 	text-align: center;
