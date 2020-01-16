@@ -21,7 +21,7 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+	vertical-align: top;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -64,3 +64,135 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+@import url('https://fonts.googleapis.com/css?family=Gelasio&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gayathri&display=swap');
+
+* {
+	font-family: 'Gelasio', serif;
+	font-family: 'Gayathri', sans-serif;
+}
+body {
+	padding: 2%;
+	margin-left: 5%;
+}
+
+nav a{
+	color: #b3b3b3;
+	display: inline-block;
+	margin: 2%;
+	text-decoration: none;
+	padding-bottom: 4%;
+}
+
+header {
+	margin: auto;
+	width: 100%;
+	display: inline-block;
+}
+.border {
+	border: .5px solid black;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+#top-div {
+	display: inline-block;
+	box-sizing: border-box;
+	text-align: center;
+	margin: auto;
+}
+
+.logo {
+	margin: 0% 0% 0% 19%;;
+	display: inline-block;
+}
+
+h1 {
+	font-size: 330%;
+	display: inline-block;
+	width: 80%;
+	font-size: 600%;
+	font-family: 'Gelasio', serif;
+}
+
+
+h2 {
+	font-size: 130%;
+	font-family: 'Gelasio', serif;
+}
+
+.container {
+	display: inline-block;
+	width: 100%;
+	margin: auto;
+}
+
+
+header #headerimg {
+	padding: 1%;
+	display: inline-block;
+	position: relative;
+	margin-left: 7%;
+}
+
+
+button {
+	display: inline;
+	box-sizing: box-sizing;
+	border: solid;
+	border-width: thin;
+	width: 40%;
+	padding: 2%;
+	background: white;
+	margin: 0% 0% 0% 6%;
+}
+
+.middle-img {
+	
+	margin: auto 0;
+	padding-left: 5%;
+}
+
+h6 {
+	text-align: center;
+	margin-bottom: 10%;
+}
+
+.top {
+	display: inline-block;
+	width: 100%;
+}
+
+p {
+	font-family: 'Gayathri', sans-serif;
+}
+
+#about {
+	width: 40%;
+	display: inline-block;
+	margin: 2%;
+
+}
+
+#features {
+	width: 40%;
+	display: inline-block;
+	margin: 2%;
+}
+
+#services {
+	width: 25%;
+	display: inline-block;
+	margin: 4%;
+}
+
+#product {
+	width: 25%;
+	display: inline-block;
+	margin: 4%;
+}
+
+#vision {
+	width: 25%;
+	display: inline-block;
+	margin: 4%;
+}
