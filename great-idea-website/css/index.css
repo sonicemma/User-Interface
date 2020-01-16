@@ -64,7 +64,13 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+@import url('https://fonts.googleapis.com/css?family=Gelasio&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gayathri&display=swap');
 
+* {
+	font-family: 'Gelasio', serif;
+	font-family: 'Gayathri', sans-serif;
+}
 body {
 	padding: 2%;
 	margin-left: 5%;
@@ -106,11 +112,13 @@ h1 {
 	display: inline-block;
 	width: 80%;
 	font-size: 600%;
+	font-family: 'Gelasio', serif;
 }
 
 
 h2 {
 	font-size: 130%;
+	font-family: 'Gelasio', serif;
 }
 
 .container {
@@ -162,4 +170,8 @@ h6 {
 
 .top {
 	margin: 99%;
+}
+
+p {
+	font-family: 'Gayathri', sans-serif;
 }
